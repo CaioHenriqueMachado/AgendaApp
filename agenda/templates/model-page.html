@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    {% include "model-header.html" %}
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i>AgendaApp</i></h1>
+            <h2>DATA</h2>
+            <hr max-width="100%">
+        </header>
+
+        {% block content %} {% endblock %}
+        
+        <div align="left">
+            <a href="/logout">logout</a>
+        </div>
+    
+        
+        
+    </div>
+    {% include "model-footer.html" %}
+</body>
+</html>
