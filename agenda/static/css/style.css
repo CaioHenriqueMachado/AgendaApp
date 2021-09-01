@@ -20,11 +20,34 @@ div.container{
   border-radius: 30px;
   background-color: #16a085;
   min-height: 500px;
-  width: 400px;
+  width: 500px;
   justify-content: space-between;
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+div.evento {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  min-height: 30px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+div.evento a {
+  text-transform: capitalize;
+}
+
+ul {
+  width: 100%;
+  padding: 0 20px;
+}
+
+li {
+  width: 100%;
+  list-style: none;
 }
 
 header{
