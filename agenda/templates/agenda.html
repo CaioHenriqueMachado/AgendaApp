@@ -2,10 +2,6 @@
 
 {% block content %}
     <h2>Agendamentos</h2>
-
-    <a href="evento">
-        <button type="button">Novo Evento</button>
-    </a>
     <ul>
         {% for evento in eventos %}
             <li>
@@ -15,22 +11,21 @@
                         {% endif %}
                     >
                     <div class="text">
-                        {{ evento.titulo }}
+                        <p class="title">{{ evento.titulo }}</p>
+                        <p class="datetime">&nbsp;&nbsp;{{  evento.get_data_evento}}</p>
                     </div>
                     <div class="action">
-                        ( <a href="evento/?id={{evento.id}}">Editar</a>
-                        / <a href="evento/delete/{{ evento.id }}">Excluir</a> )
+                        <a href="evento/?id={{evento.id}}"><img class="iconEdit" src="../static/img/iconEdit.png" alt="iconEdit"></a>
+                        &nbsp;
+                        <a href="evento/delete/{{ evento.id }}"><img class="iconDelete" src="../static/img/iconDelete.png" alt="iconDelete"></a>
                     </div>
-                    
                 </div>
-                    {{  evento.get_data_evento}}
             </li>
         {% endfor %}
     </ul>
 
-<a href="/agenda/lista/1/">
-    <button>JSON</button>
-</a>
-<p>(obs: Apenas eventos a seguir são exibidos)</p>
+    <a href="evento">
+        <button class="newEvent" type="button">Novo Evento</button>
+    </a>
 
 {% endblock %}
