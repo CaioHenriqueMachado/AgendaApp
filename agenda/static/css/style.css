@@ -110,16 +110,12 @@ button {
   box-shadow: 1px 1px 1px gray;
   border: none;
   color: whitesmoke;
+  min-width: 80px;
+  min-height: 40px;
 }
-
 
 button.newEvent {
   width: 120px;
-  height: 40px;
-}
-
-button.json, button.logout {
-  width: 80px;
   height: 40px;
 }
 
@@ -146,6 +142,7 @@ input, textarea {
   margin-bottom: 15px;
   border-radius: 10px;
   border: none;
+  outline: none;
 }
 
 form input{
