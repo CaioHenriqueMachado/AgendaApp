@@ -1,7 +1,3 @@
-# AgendaApp
-Aplicativo de agenda em python
-
-
 <h1 align="center">Agenda</h1>
 
 <h2 align="center">Agende eventos para ficar por dentro das suas tarefas.</h2>
