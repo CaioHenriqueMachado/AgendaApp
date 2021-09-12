@@ -48,5 +48,21 @@ Aplicativo de agenda em python
 - **HTML5** 		
 - **CSS3** 	    
 
+<br>
+  <h2 align="center">RECURSOS</h2>
+<br>
+ - Usuário
+   - Fazer login e logout
+   - Cadastrar usuário
+   - Editar usuário
+   - Excluir usuário
+ - Eventos
+   - Adicionar evento
+   - Ver proximos eventos
+   - Ver eventos com até 60 minutos de atraso
+   - Editar eventos
+   - Excluir eventos
+   - Gerar JSON dos eventos
+
 <img src="./img/line.png" alt="line" width="100%">
 <br>
