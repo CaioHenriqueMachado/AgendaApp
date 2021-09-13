@@ -1,3 +1,7 @@
+# AgendaApp
+Aplicativo de agenda em python
+
+
 <h1 align="center">Agenda</h1>
 
 <h2 align="center">Agende eventos para ficar por dentro das suas tarefas.</h2>
@@ -7,7 +11,7 @@
 
 <h1 align="center">Mobile Version</h1>
 <div align="center">
-  <img src="./img/mobile01.png" alt="Mobile Version" height="500" width="30%">
+  <img src="./img/mobile01.png" alt="Mobile Version" height="500" width="33%">
   <img src="./img/mobile02.png" alt="Mobile Version" height="500" width="33%">
   <img src="./img/mobile03.png" alt="Mobile Version" height="500" width="33%">
 </div>
